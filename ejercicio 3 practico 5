@@ -1,0 +1,34 @@
+// ejercicio3.cpp : Defines the entry point for the console application.
+//
+
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+   int  N , u , d , c , m;
+   cout << "Ingrese N: ";
+   cin >> N;
+    if (N < 10000)
+	{
+     u=(N%10);
+	 cout << "unidades es:" << u << endl;
+	 d=((N / 10)%10);
+	 cout << "decenas es:" << d << endl;
+	 c=((N /100)%10);
+	 cout << "centenas es:" <<c << endl;
+	 m=((N /1000)%10);
+	 cout << "mil es:"<<m  << endl;
+	 
+    }
+
+   else
+   {	
+	cout << "escribir valor invalido";
+   }
+  getch();
+}
