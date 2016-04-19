@@ -1,0 +1,27 @@
+// Enrique for1.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+#include "math.h"
+
+using namespace std;
+void main()
+
+	{
+		int hh,mm,ss;
+
+		for (hh= 0; hh<23;hh++)
+		
+			for (mm=0;mm<=59;mm++)
+				for (ss=0;ss<=59;ss++)
+
+					cout<<hh<<":"<<mm<<":"<<ss<<endl;
+		system ("pause");
+		getch ();
+
+}
+
+
+
